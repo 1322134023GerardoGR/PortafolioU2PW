@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Examen de Geografía</title>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="resources/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+        <a class="navbar-brand" href="index.html">Evidencias</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="english_Test.html">Inglés</a></li>
+                <li class="nav-item"><a class="nav-link active" href="geografia.html">Geografía</a></li>
+                <li class="nav-item"><a class="nav-link" href="cotizador.html">Cotizador</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Header-->
+<header class="bg-dark py-5" style='background-image: url("resources/img/geography.png"); background-repeat: no-repeat; background-size: cover'>
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+                <div class="text-center my-5">
+                    <h1 class="display-5 fw-bolder  mb-2">Examen de Geografía</h1>
+                    <p class="lead  mb-4">Pon a prueba tu nivel de geografía en el siguiente examen.
+                    </p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                        <a class="btn btn-secondary btn-lg px-4" href="#test">Comienza el test</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="py-3 border-bottom" id="features">
+    <div id="test" class="container px-5 my-5">
+        <h1 id="resultado"></h1>
+
+        <h3 class="h5 fw-bolder">Resuelve el siguiente examen de geografía </h3>
+        <br>
+        <br>
+
+        <div class="container border-top">
+            <br>
+            <label for="pregunta1">1. Bruselas es la capital del país denominado: </label>
+            <img class="rounded float-end" id="validacion-1" src="" alt="">
+            <select class="form-select" id="pregunta1" aria-label="Default  select example">
+                <option selected>Selecciona una opción</option>
+                <option value="0">Guatemala</option>
+                <option value="1" id="respuesta1">Bélgica</option>
+                <option value="0">Buenos Aires</option>
+                <option value="0">Puerto Rico</option>
+            </select>
+            <h6 id="retro1"></h6>
+            <br>
+            <label for="pregunta2">2. La capital de Argentina es: </label>
+            <img class="rounded float-end" id="validacion-2" src="" alt="">
+            <select class="form-select" id="pregunta2" aria-label="Default  select example">
+                <option selected>Selecciona una opción</option>
+                <option value="0">Guatemala</option>
+                <option value="0">Belmopan</option>
+                <option value="1" id="respuesta2">Buenos Aires</option>
+                <option value="0">Puerto Rico</option>
+            </select>
+            <h6 id="retro2"></h6>
+            <br>
+                <label for="pregunta3">3. San José es la capital de: </label>
+                <img class="rounded float-end" id="validacion-3" src="" alt="">
+                <select class="form-select" id="pregunta3" aria-label="Default  select example">
+                    <option selected>selecciona una opcion</option>
+                    <option value="0">Brasil</option>
+                    <option value="0">Argentina</option>
+                    <option value="1" id="respuesta3">Costa Rica</option>
+                    <option value="0">Venezuela</option>
+                </select>
+                <h6 id="retro3"></h6>
+                <br>
+                <label for="pregunta4">4. La capital de Venezuela es: </label>
+                <img class="rounded float-end" id="validacion-4" src="" alt="">
+                <select class="form-select" id="pregunta4" aria-label="Default  select example">
+                    <option selected>selecciona una opcion</option>
+                    <option value="0">Tegucigalpa</option>
+                    <option value="0">Managua</option>
+                    <option value="0">Panamá</option>
+                    <option value="1" id="respuesta4">Caracas</option>
+                </select>
+                <h6 id="retro4"></h6>
+                <br>
+                <label for="pregunta5">5. Brasilia, es la capital del país: </label>
+                <img class="rounded float-end" id="validacion-5" src="" alt="">
+                <select class="form-select" id="pregunta5" aria-label="Default  select example">
+                    <option selected>selecciona una opcion</option>
+                    <option value="1" id="respuesta5">Brasil</option>
+                    <option value="0">Ecuador</option>
+                    <option value="0">Paraguay</option>
+                    <option value="0">Perú</option>
+                </select>
+                <h6 id="retro5"></h6>
+                <br>
+                <label for="pregunta6">6. La capital de Perú es: </label>
+                <img class="rounded float-end" id="validacion-6" src="" alt="">
+                <select class="form-select" id="pregunta6" aria-label="Default  select example">
+                    <option selected>selecciona una opcion</option>
+                    <option value="0">Sucre</option>
+                    <option value="0">Bogotá</option>
+                    <option value="0">Montevideo</option>
+                    <option value="1" id="respuesta6">Lima</option>
+                </select>
+                <h6 id="retro6"></h6>
+                <br>
+                <label for="pregunta7">7. Puerto España es la capital de: </label>
+                <img class="rounded float-end" id="validacion-7" src="" alt="">
+                <select class="form-select" id="pregunta7" aria-label="Default  select example">
+                    <option selected>selecciona una opcion</option>
+                    <option value="0">Surinam</option>
+                    <option value="0">Bolivia</option>
+                    <option value="0">Brasil</option>
+                    <option value="1" id="respuesta7">Trinidad y Tobago</option>
+                </select>
+                <h6 id="retro7"></h6>
+                <br>
+                <label for="pregunta8">8. Cuba, país cuya capital es: </label>
+                <img class="rounded float-end" id="validacion-8" src="" alt="">
+                <select class="form-select" id="pregunta8" aria-label="Default  select example">
+                    <option selected>selecciona una opcion</option>
+                    <option value="0">Kingston</option>
+                    <option value="0">Santo Domingo</option>
+                    <option value="1" id="respuesta8">La habana</option>
+                    <option value="0">Castries</option>
+                </select>
+                <h6 id="retro8"></h6>
+                <br>
+                <label for="pregunta9">9. Managua, es la capital que pertenece a: </label>
+                <img class="rounded float-end" id="validacion-9" src="" alt="">
+                <select class="form-select" id="pregunta9" aria-label="Default  select example">
+                    <option selected>selecciona una opcion</option>
+                    <option value="0">Panamá</option>
+                    <option value="0">Honduras</option>
+                    <option value="1" id="respuesta9">Nicaragua</option>
+                    <option value="0">Belice</option>
+                </select>
+                <h6 id="retro9"></h6>
+                <br>
+                <label for="pregunta10">10. Ecuador, tiene como capital: </label>
+                <img class="rounded float-end" id="validacion-10" src="" alt="">
+                <select class="form-select" id="pregunta10" aria-label="Default  select example">
+                    <option selected>selecciona una opcion</option>
+                    <option value="0">Parabarimo</option>
+                    <option value="0">Montevideo</option>
+                    <option value="0">Asunción</option>
+                    <option value="1" id="respuesta10">Quito</option>
+                </select>
+                <h6 id="retro10"></h6>
+                <br>
+                <br>
+            <div class="align-content-center">
+                <h3 id="result"></h3>
+                <button class="btn btn-primary position-relative top-50 start-50" id='resultados'>Calcular</button>
+                <button class="btn btn-secondary position-relative top-50 start-50"
+                        id='reiniciar'>Reiniciar</button>
+            </div>
+        </div>
+        </div>
+</section>
+
+<!-- Footer-->
+<footer class="py-4 bg-dark">
+    <div class="container px-5">
+        <p class="m-0 text-center text-white">Creado por GerardoGR</p>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+<script src="js/geografia.js"></script>
+
+</html>

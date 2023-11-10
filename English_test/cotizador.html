@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orden de Pizza</title>
+    <link rel="stylesheet" href="resources/css/bootstrap.css">
+    <script src="resources/js/bootstrap.js"></script>
+</head>
+<body id="page-top">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+        <a class="navbar-brand" href="index.html">Evidencias</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="english_Test.html">Inglés</a></li>
+                <li class="nav-item"><a class="nav-link" href="geografia.html">Geografía</a></li>
+                <li class="nav-item"><a class="nav-link active" href="cotizador.html">Cotizador</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="bg-image-full img-fluid d-flex align-items-center justify-content-center "
+            style="height: 600px; background-repeat: no-repeat; background-size: cover">
+
+    <div class="container-xxl py-5 bg-dark hero-header mb-4">
+        <div class="container my-5 py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="display-3 text-white animated slideInLeft">Disfruta de nuestras<br> Deliciosas pizzas
+                    </h1>
+                    <p class="text-white animated slideInLeft mb-4 pb-2">Bienvenido a nuestro portal, aquí podras
+                        ordenar una pizza a tu gusto con las diferentes opciones que tenemos para ti.</p>
+                    <a href="#orden" class="btn btn-primary animated slideInLeft">Ordena ahora</a>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                    <img class="img-fluid" src="resources/img/pizza.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+<br><br>
+<section class="py-5" id="orden">
+    <div class="container px-4 px-lg-5 mt-5">
+        <h4>El costo base de la pizza es de 80 pesos, a este costo se le sumaran las elecciones.</h4>
+        <br>
+        <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center">
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/tamanios.png" alt="..."/>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Tamaño</h5>
+                            <div class="form-check">
+                                <input class="form-check-input" checked type="radio" name="t" value="19" id="t1">
+                                <label class="form-check-label" for="t1">Mediana (30cm) +$19</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="t" value="35" id="t2">
+                                <label class="form-check-label" for="t2">Grande (35cm) +$35</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="t" value="55" id="t3">
+                                <label class="form-check-label" for="t3">Italiana (40cm) +$55</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="t" value="110" id="t4">
+                                <label class="form-check-label" for="t4">Dominator (45cm) +$110</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/masa.jpg" alt="..."/>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Masa</h5>
+                            <!-- Product price-->
+                            <div class="form-check">
+                                <input class="form-check-input" checked type="radio" name="m" value="0" id="m1">
+                                <label class="form-check-label" for="m1">Original +$0</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="m" value="30" id="m2">
+                                <label class="form-check-label" for="m2">Orilla rellena de queso +$30</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="m" value="14" id="m3">
+                                <label class="form-check-label" for="m3">Sartén +$14</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="m" value="50" id="m4">
+                                <label class="form-check-label" for="m4">Crujiente +$50</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/queso.jpg" alt="..."/>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Queso</h5>
+                            <!-- Product price-->
+                            <div class="form-check">
+                                <input class="form-check-input" checked type="radio" name="q" value="10" id="q1">
+                                <label class="form-check-label" for="q1">Completa +$10</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q" value="5" id="q2">
+                                <label class="form-check-label" for="q2">Izquierda +$5</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q" value="5" id="q3">
+                                <label class="form-check-label" for="q3">Derecha +$5</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q" value="20" id="q4">
+                                <label class="form-check-label" for="q4">Extra +$20</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/pizza2.jpg" alt="..."/>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Ingredientes(max 4)</h5>
+                            <!-- Product price-->
+                            <div class="form-check">
+                                <input class="form-check-input" checked type="checkbox" name="ing" value="15" id="ing1">
+                                <label class="form-check-label" for="ing1">Pepperoni +$15</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="ing" value="25" id="ing2">
+                                <label class="form-check-label" for="ing2">Jamón +$25</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="ing" value="20" id="ing3">
+                                <label class="form-check-label" for="ing3">Carne molida +$20</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="ing" value="35" id="ing4">
+                                <label class="form-check-label" for="ing4">Tocino +$35</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="ing" value="30" id="ing5">
+                                <label class="form-check-label" for="ing5">Pollo +$30</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="ing" value="10" id="ing6">
+                                <label class="form-check-label" for="ing6">4 Quesos +$10</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/salsas.png" height="250" alt="..."/>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Salsas</h5>
+                            <!-- Product price-->
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="sa" value="20" id="sa1">
+                                <label class="form-check-label" for="sa1">Mango Habanero +$20</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="sa" value="20" id="sa2">
+                                <label class="form-check-label" for="sa2">Queso Con Jalapeño +$20</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="sa" value="20" id="sa3">
+                                <label class="form-check-label" for="sa3">Brava +$20</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="sa" value="20" id="sa4">
+                                <label class="form-check-label" for="sa4">BBQ +$20</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="sa" value="20" id="sa5">
+                                <label class="form-check-label" for="sa5">Ranch +$20</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/adicionales.jpg" height="250" alt="..."/>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Adicionales</h5>
+                            <!-- Product price-->
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="ad" value="65" id="ad1">
+                                <label class="form-check-label" for="ad1">Papas (220g) +$65</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="ad" value="50" id="ad2">
+                                <label class="form-check-label" for="ad2">Pan relleno de queso (16 piezas) +$50</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="ad" value="65" id="ad3">
+                                <label class="form-check-label" for="ad3">Pan relleno de queso, chorizo y jalapeño (10 piezas) +$65</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/refrescos.jpg" height="250" alt="..."/>
+
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <label for="beb1" class="h5 fw-bolder">Bebida</label>
+                            <select name="b" id="beb1" class="form-select">
+                                <option value="0">Seleccione una opcion</option>
+                                <option value="20" id="b1">Pepsi 600ml +$20</option>
+                                <option value="20" id="b2">Coca-cola 600ml +$20</option>
+                                <option value="20" id="b3">7 up 600ml +$20</option>
+                                <option value="20" id="b4">Manzanita 600ml +$20</option>
+                                <option value="20" id="b5">Mirinda 600ml +$20</option>
+                                <option value="15" id="b6">Agua 600ml +$15</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/postre.png" height="250" alt="..."/>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <label for="pos1" class="h5 fw-bolder">Postre</label>
+                            <select name="p" id="pos1" class="form-select">
+                                <option value="0">Seleccione una opcion</option>
+                                <option value="70" id="p1">Brownie Cookie +$70</option>
+                                <option value="100" id="p2">Volcán de Chocolate +$100</option>
+                                <option value="65" id="p3">Pan de Canela +$65</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top rounded-5" src="resources/img/entrega.png" height="250" alt="..."/>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <label for="entrega" class="h5 fw-bolder">Entrega</label>
+                            <select name="p" id="entrega" class="form-select">
+                                <option value="0" id="en1">En tienda +$0</option>
+                                <option value="15" id="en2">A domicilio +$15</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100 border-0">
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <button class="btn btn-primary h4" id="obtenerValores">Ordenar</button>
+                            <button class="btn btn-secondary h5" id="ordenar">Ordenar nuevamente</button>
+                            <br><br><br>
+
+                            <h3>Detalles de compra</h3>
+                        </div>
+
+                        <div class="text-center">
+                        <h6 id="listaValores"></h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br><br>
+
+<section id="contact">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8">
+                <h2>Contáctanos</h2>
+                <p class="lead">En caso de que tengas algún problema o pregunta, no dudes en contactarnos a través de alguno de los siguientes métodos:</p>
+                <ul>
+                    <li>Nombre: Gerardo Gutiérrez</li>
+                    <li>Teléfono: 7299279446</li>
+                    <li>Correo: gerardogutierrezr41@gmail.com</li> <!-- Reemplaza "example.com" con la dirección de correo real -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<br><br><br><br>
+
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Pizzas 2Hermanos 2023</p></div>
+</footer>
+</body>
+<script src="js/cotizador.js"></script>
+</html>
